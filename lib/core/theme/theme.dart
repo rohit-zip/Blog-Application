@@ -13,6 +13,9 @@ class AppTheme {
 
   static final lightTheme = ThemeData.light().copyWith(
     scaffoldBackgroundColor: AppPalette.backgroundColor,
+    appBarTheme: const AppBarTheme(
+      backgroundColor: AppPalette.backgroundColor
+    ),
     inputDecorationTheme: InputDecorationTheme(
       contentPadding: const EdgeInsets.all(27),
       enabledBorder: _border(),
